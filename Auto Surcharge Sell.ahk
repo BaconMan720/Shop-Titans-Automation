@@ -7,7 +7,7 @@ o::
 msgBox [auto sell online]
 loop 10000
 {
-    pixelgetcolor, OutputVar, 1488, 78, [slow]
+    pixelgetcolor, OutputVar, 1488, 78, [slow]		; checks a pixel on energy bar
     if (OutputVar = 0x969399 or OutputVar = 0x365DFE)
     {
         SysGet, Mon2, Monitor, 1
