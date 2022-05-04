@@ -26,12 +26,7 @@ loop 10000
         sleep 500
         ClickAtCord(0.1, 0.6)       ;Clear select
         sleep 1000
-	}
-    else
-    {
-        ClickAtCord(0.5, 0.5)       ;Click NPC
-        ClickAtCord(0.3, 0.6)       ;Refuse
-    }
+    }	
     If (OutputVarB = 0x5DF721)
     {
         ClickAtCord(0.55, 0.9)      
